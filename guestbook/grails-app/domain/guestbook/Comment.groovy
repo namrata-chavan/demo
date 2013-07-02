@@ -3,7 +3,7 @@ package guestbook
 class Comment {
 	String comment
 	Date dateCreated // Predefined names by Grails will be filled automatically
-	Date lastUpdated // Predefined names by Grails will be filled automatically
+	Date lastupdated // Predefined names by Grails will be filled automatically
   
 	User user;
 	// This will make sure that all comments for a feedback are deleted in case the feedback item is deleted
