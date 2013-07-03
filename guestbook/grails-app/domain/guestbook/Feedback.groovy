@@ -13,6 +13,9 @@ class Feedback {
 		title(blank:false, nullable: false, size:3..80)
 		feedback(blank:false, nullable:false,size:3..500)
 		user(nullable:false)
+		
+		
+		
     }
 	String toString(){
 		return title
