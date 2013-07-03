@@ -21,9 +21,9 @@ class CommentController {
         [commentInstanceList: Comment.list(params), commentInstanceTotal: Comment.count()]
     }
 
-    def create() {
-        [commentInstance: new Comment(params)]
-    }
+  //  def create() {
+    //    [commentInstance: new Comment(params)]
+    //}
 
     def save() {
         def commentInstance = new Comment(params)
