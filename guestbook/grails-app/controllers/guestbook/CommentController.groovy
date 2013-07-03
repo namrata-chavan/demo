@@ -8,7 +8,11 @@ class CommentController {
 
     def index() {
         redirect(action: "list", params: params)
-    }
+    
+		}
+	
+	
+	
 	
 	
 
